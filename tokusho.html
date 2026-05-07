@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>特定商取引法に基づく表記 — Yori</title>
+  <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #F5F0E8;
+      --card: #FFFDF5;
+      --terra: #B8502A;
+      --text: #2C2416;
+      --text-muted: #7A6E62;
+      --border: #E8E0D0;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Klee One', 'Hiragino Kaku Gothic ProN', sans-serif;
+      line-height: 1.9;
+      min-height: 100vh;
+    }
+
+    header {
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .logo { font-size: 22px; color: var(--terra); font-weight: bold; text-decoration: none; }
+    .logo-sep { color: var(--border); font-size: 18px; }
+    .page-title { font-size: 15px; color: var(--text-muted); }
+
+    nav {
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+      display: flex;
+      overflow-x: auto;
+    }
+
+    nav a {
+      display: block;
+      padding: 12px 20px;
+      text-decoration: none;
+      font-size: 13px;
+      color: var(--text-muted);
+      border-bottom: 2px solid transparent;
+      white-space: nowrap;
+      transition: color 0.2s, border-color 0.2s;
+    }
+
+    nav a:hover { color: var(--terra); }
+    nav a.active { color: var(--terra); border-bottom-color: var(--terra); }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    h1 { font-size: 26px; color: var(--text); margin-bottom: 8px; }
+    .date { font-size: 13px; color: var(--text-muted); margin-bottom: 40px; }
+
+    .table-wrap {
+      background: var(--card);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      overflow: hidden;
+      margin-bottom: 16px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    tr { border-bottom: 1px solid var(--border); }
+    tr:last-child { border-bottom: none; }
+
+    th {
+      background: var(--bg);
+      color: var(--terra);
+      font-weight: normal;
+      text-align: left;
+      padding: 16px 24px;
+      width: 36%;
+      vertical-align: top;
+      font-size: 13px;
+    }
+
+    td {
+      padding: 16px 24px;
+      color: var(--text);
+      vertical-align: top;
+    }
+
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 12px;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+    }
+
+    @media (max-width: 480px) {
+      th, td { padding: 12px 16px; }
+      th { width: 40%; font-size: 12px; }
+      td { font-size: 13px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="/">Yori</a>
+  <span class="logo-sep">/</span>
+  <span class="page-title">特定商取引法に基づく表記</span>
+</header>
+
+<nav>
+  <a href="terms.html">利用規約</a>
+  <a href="privacy.html">プライバシーポリシー</a>
+  <a href="tokusho.html" class="active">特定商取引法</a>
+</nav>
+
+<main>
+  <h1>特定商取引法に基づく表記</h1>
+  <p class="date">制定日：2026年4月</p>
+
+  <div class="table-wrap">
+    <table>
+      <tr>
+        <th>販売者</th>
+        <td>大野洋翔</td>
+      </tr>
+      <tr>
+        <th>所在地</th>
+        <td>東京都豊島区高田２−２−１３</td>
+      </tr>
+      <tr>
+        <th>電話番号</th>
+        <td>請求があり次第、遅滞なく開示いたします。</td>
+      </tr>
+      <tr>
+        <th>メールアドレス</th>
+        <td>yori.forsupport@gmail.com</td>
+      </tr>
+      <tr>
+        <th>販売価格</th>
+        <td>手紙送信機能 150円／通（税込）<br><span style="font-size:12px;color:#7A6E62;">※価格は予告なく変更する場合があります。</span></td>
+      </tr>
+      <tr>
+        <th>販売価格以外の必要料金</th>
+        <td>通信費・デバイスの利用にかかる費用はお客様のご負担となります。</td>
+      </tr>
+      <tr>
+        <th>お支払い方法</th>
+        <td>App Store または Google Play を通じたお支払い（各ストアが定める決済方法）</td>
+      </tr>
+      <tr>
+        <th>代金のお支払い時期</th>
+        <td>ご購入のタイミングで各ストアにYori自動決済されます。</td>
+      </tr>
+      <tr>
+        <th>サービス提供時期</th>
+        <td>決済完了後、原則即時ご利用いただけます。</td>
+      </tr>
+      <tr>
+        <th>キャンセル・返品について</th>
+        <td>デジタルコンテンツの性質上、購入後のキャンセル・返金には原則対応しておりません。ただし、App Store・Google Play の返金ポリシーに準じた対応を行います。</td>
+      </tr>
+      <tr>
+        <th>動作環境</th>
+        <td>iOS 16.0 以降を搭載した iPhone</td>
+      </tr>
+    </table>
+  </div>
+</main>
+
+<footer>
+  © 2026 Yori — 大野洋翔
+</footer>
+
+</body>
+</html>

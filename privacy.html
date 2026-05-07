@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>プライバシーポリシー — Yori</title>
+  <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #F5F0E8;
+      --card: #FFFDF5;
+      --terra: #B8502A;
+      --terra-light: #D4734A;
+      --text: #2C2416;
+      --text-muted: #7A6E62;
+      --border: #E8E0D0;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Klee One', 'Hiragino Kaku Gothic ProN', sans-serif;
+      line-height: 1.9;
+      min-height: 100vh;
+    }
+
+    header {
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .logo {
+      font-size: 22px;
+      color: var(--terra);
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .logo-sep { color: var(--border); font-size: 18px; }
+    .page-title { font-size: 15px; color: var(--text-muted); }
+
+    nav {
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+      display: flex;
+      gap: 0;
+      overflow-x: auto;
+    }
+
+    nav a {
+      display: block;
+      padding: 12px 20px;
+      text-decoration: none;
+      font-size: 13px;
+      color: var(--text-muted);
+      border-bottom: 2px solid transparent;
+      white-space: nowrap;
+      transition: color 0.2s, border-color 0.2s;
+    }
+
+    nav a:hover { color: var(--terra); }
+    nav a.active { color: var(--terra); border-bottom-color: var(--terra); }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    h1 { font-size: 26px; color: var(--text); margin-bottom: 8px; }
+    .date { font-size: 13px; color: var(--text-muted); margin-bottom: 40px; }
+
+    .section {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 28px 32px;
+      margin-bottom: 16px;
+      border: 1px solid var(--border);
+    }
+
+    h2 {
+      font-size: 15px;
+      color: var(--terra);
+      margin-bottom: 14px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    p { font-size: 14px; margin-bottom: 12px; }
+    p:last-child { margin-bottom: 0; }
+
+    ul { list-style: none; font-size: 14px; }
+    ul li { padding: 4px 0; padding-left: 16px; position: relative; }
+    ul li::before { content: '・'; position: absolute; left: 0; color: var(--terra); }
+
+    .tag {
+      display: inline-block;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 2px 8px;
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+
+    .contact-box {
+      background: var(--bg);
+      border-radius: 8px;
+      padding: 16px 20px;
+      font-size: 14px;
+      margin-top: 12px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 12px;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="/">Yori</a>
+  <span class="logo-sep">/</span>
+  <span class="page-title">プライバシーポリシー</span>
+</header>
+
+<nav>
+  <a href="terms.html">利用規約</a>
+  <a href="privacy.html" class="active">プライバシーポリシー</a>
+  <a href="tokusho.html">特定商取引法</a>
+</nav>
+
+<main>
+  <h1>プライバシーポリシー</h1>
+  <p class="date">制定日：2026年4月　最終更新：2026年5月</p>
+
+  <div class="section">
+    <p>大野洋翔（以下「運営者」）は、アプリ「より」（以下「本アプリ」）におけるユーザーの個人情報の取り扱いについて、以下のとおりプライバシーポリシー（以下「本ポリシー」）を定めます。</p>
+  </div>
+
+  <div class="section">
+    <h2>1. 収集する情報</h2>
+    <span class="tag">アカウント情報</span>
+    <ul>
+      <li>メールアドレス、パスワード（暗号化して保存）</li>
+      <li>ニックネーム、生年月日、プロフィール画像</li>
+    </ul>
+    <span class="tag" style="margin-top:14px;">利用情報</span>
+    <ul>
+      <li>日記の内容・投稿日時</li>
+      <li>ユーザー間で送受信した手紙の内容</li>
+      <li>つながり（友達関係）の情報</li>
+      <li>記念日のタイトルと日付</li>
+      <li>日記の既読記録</li>
+    </ul>
+    <span class="tag" style="margin-top:14px;">認証情報</span>
+    <ul>
+      <li>Googleアカウント情報（Google経由でログインした場合）</li>
+      <li>Apple IDの情報（Apple経由でログインした場合）</li>
+    </ul>
+    <span class="tag" style="margin-top:14px;">端末情報</span>
+    <ul>
+      <li>通知設定の時刻（端末内のみ保存）</li>
+      <li>プッシュ通知用のデバイストークン（APNs）</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>2. 情報の利用目的</h2>
+    <ul>
+      <li>本アプリのサービス提供および機能の運営</li>
+      <li>ユーザー間の日記・手紙の共有機能の実現</li>
+      <li>誕生日・記念日の通知機能の提供</li>
+      <li>日記連続投稿（ストリーク）の計算と表示</li>
+      <li>サービスの改善および不具合対応</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>3. 第三者への情報提供</h2>
+    <p>運営者は、以下の場合を除き、ユーザーの個人情報を第三者に提供しません。</p>
+    <ul>
+      <li>ユーザーご本人の同意がある場合</li>
+      <li>法令に基づき開示が必要な場合</li>
+    </ul>
+    <p style="margin-top:14px;">本アプリはデータベース・認証にSupabase（米国）を利用しており、データの一部が米国のサーバーに保存されます。本アプリはGoogle認証にGoogle LLC（米国）、Apple認証にApple Inc.（米国）のサービスを利用しており、各社のプライバシーポリシーが適用されます。</p>
+    <p>本アプリを利用することで、上記の越境データ移転に同意したものとみなします。</p>
+  </div>
+
+  <div class="section">
+    <h2>4. 情報の共有範囲</h2>
+    <p>本アプリ内では、「つながり」機能で接続したユーザー間に限り、以下の情報が相互に閲覧できます。</p>
+    <ul>
+      <li>ニックネーム・プロフィール画像・生年月日</li>
+      <li>日記の内容（前日以前は常時。当日分は双方が投稿した場合のみ）</li>
+      <li>つながり期間・記念日情報</li>
+    </ul>
+    <p style="margin-top:12px;">それ以外の第三者は、いかなる情報にもアクセスできません。</p>
+  </div>
+
+  <div class="section">
+    <h2>5. 情報の保存期間</h2>
+    <p>アカウントが有効である限り、情報は保存されます。アカウント削除の申請を受けた場合、運営者は30日以内にユーザーの個人情報を削除します。</p>
+  </div>
+
+  <div class="section">
+    <h2>6. 情報の管理・セキュリティ</h2>
+    <ul>
+      <li>パスワードはハッシュ化して保存</li>
+      <li>データベースへのアクセスはRow Level Security（RLS）にYori制御</li>
+      <li>通信はSSL/TLSにYori暗号化</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>7. ユーザーの権利</h2>
+    <ul>
+      <li>自己の個人情報の開示請求</li>
+      <li>個人情報の訂正・削除の申請</li>
+      <li>アカウントの削除申請</li>
+    </ul>
+    <p style="margin-top:12px;">申請は下記お問い合わせ先までご連絡ください。30日以内に対応いたします。</p>
+  </div>
+
+  <div class="section">
+    <h2>8. Cookie等の技術について</h2>
+    <p>本アプリは、サービス提供のためにSupabase・Google・AppleのSDKを利用しており、これらのサービスがセッション管理等のために類似技術を使用する場合があります。</p>
+  </div>
+
+  <div class="section">
+    <h2>9. 未成年者について</h2>
+    <p>本アプリは13歳未満のユーザーを対象としていません。13歳未満の方は保護者の同意のもとでご利用ください。</p>
+  </div>
+
+  <div class="section">
+    <h2>10. ポリシーの変更</h2>
+    <p>本ポリシーは、必要に応じて改定することがあります。重要な変更がある場合は、アプリ内でお知らせします。</p>
+  </div>
+
+  <div class="section">
+    <h2>11. お問い合わせ</h2>
+    <div class="contact-box">
+      <p>運営者：大野洋翔</p>
+      <p>メール：yori.forsupport@gmail.com</p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  © 2026 Yori — 大野洋翔
+</footer>
+
+</body>
+</html>
